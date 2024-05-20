@@ -7,6 +7,19 @@
     <title>Samuel Barfi</title>
 </head>
 <body>
-    
+    <div id="header">
+        <h1 id = "headerText">@BamuelSarfi</h1>
+    </div>
+
+    <script defer>
+        const header = document.getElementById('header');
+        window.addEventListener('load', setupScreen);
+        window.addEventListener('resize', setupScreen);
+
+        function setupScreen(){
+            header.style.marginLeft = (window.innerWidth/2) - 200 + "px";
+            header.style.marginTop = (window.innerHeight/2) + "px";
+        }
+    </script>
 </body>
 </html>
