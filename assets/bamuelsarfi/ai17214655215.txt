@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
-  <title>Samuel Barfi</title>
-</head>
-<body>
-  <section>
-    <div id="header">
-      <div id = "logo" width = "300px" height = "300px">
-        <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 984 447" style="enable-background:new 0 0 984 447;" xml:space="preserve">
@@ -94,38 +82,3 @@
 	</g>
 </g>
 </svg>
-</div>
-      <p>eMail: barfisamuel29@gmail.com | number: 07462880117</p>
-    </div>
-    <div id="cards">
-      <div>
-        <img src = "https://images.pexels.com/photos/25748615/pexels-photo-25748615/free-photo-of-portrait-of-a-young-man-reading-a-newspaper-outdoors.jpeg" width="400px" height="300px">
-        <h1>About Me</h1>
-        <p>Samuel Barfi is an excellent individual: he is creative and strives to be the best he can be. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe autem dolore non beatae architecto minus. Obcaecati temporibus accusantium quasi maxime voluptatem officia, totam, natus a tempora corrupti autem repudiandae est.</p>
-      </div>
-      <div>
-        <img src="https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-        <h1>My Past</h1>
-        <p>Samuel Barfi does dabble in projects from time to time, here is a list of some of them, including a timeline to place all of the projects over the years.</p>
-      </div>
-      <div>
-        <img src="https://images.pexels.com/photos/27060825/pexels-photo-27060825/free-photo-of-a-sunset-with-clouds-in-the-sky.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
-        <h1>Current Projects</h1>
-        <p>Here you can keep tabs on what i am working on.</p>
-      </div>
-    </div>
-  </section>
-  
-  <section id = "main" style="height: 1000px;">
-    <div></div>
-  </section>
-
-  <section id = "footerBg">
-    <div id="footerLeft">
-      <h1>@BamuelSarfi</h1>
-      <p>This website is still under Construction.🛠</p>
-      <p>I thank "syhoya" on color.adobe.com for the colour scheme.</p>
-    </div>
-  </section>
-</body>
-</html>

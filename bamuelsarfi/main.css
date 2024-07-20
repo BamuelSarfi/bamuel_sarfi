@@ -114,3 +114,19 @@ body{
     font-family: monospace;
     margin-bottom: 0.3rem;
 }
+#logo{
+    justify-content: center;
+    width:100%;
+    height:200px;
+    margin:0;
+    padding:0;
+}
+#logo svg{
+    width:400px;
+    height:100%;
+    margin:0; padding:0;
+}
+#logo svg .st1:hover{
+    transform: translate(-5px, -5px);
+    transition-duration: 0.1s;
+}
