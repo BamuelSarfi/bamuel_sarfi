@@ -1,3 +1,4 @@
+/*Global Css*/
 :root{
     /*colours*/
     --background-blue: #1587CF;
@@ -21,11 +22,11 @@ body{
     box-shadow: 4px 6px 0px var(--background-deep);
     border-radius:15px;
     border:4px solid var(--background-deep);
-    padding: none;
     font-family: monospace;
     font-size: 50px;
     margin: 12px;
     padding:40px;
+    overflow: hidden;
 }
 #header h1{
     font-family: monospace;
@@ -34,6 +35,9 @@ body{
 #header p{
     font-family: monospace;
     font-size: 15px;
+}
+#header h2{
+    font-size:20px;
 }
 /*from
 
@@ -95,6 +99,10 @@ body{
     border-radius: 15px;
     border:4px solid var(--background-deep);
 }
+#cards li{
+    font-size:15px;
+    font-family: monospace;
+}
 #footerBg{
     width: 100%;
     height:300px;
@@ -125,8 +133,52 @@ body{
     width:400px;
     height:100%;
     margin:0; padding:0;
+    
+}
+#log svg .st1{
+    animation: jiggle 0.5s linear;
+    animation-delay: calc(0.055s * var(--i));
+    
 }
 #log svg .st1:hover{
     transform: translate(-5px, -5px);
     transition-duration: 0.1s;
+    
+}
+@keyframes jiggle {
+    0%{
+        transform: translate(0px, 0px);
+        transition-delay: 300ms;
+    }
+    50%{
+        transform: translate(-5px, -5px);
+        transition-delay:300ms;
+    }
+    100%{
+        transform: translate(0px, 0px);
+        transition-delay:300ms;
+    }
+}
+#botLog{
+    width:100px;
+    height:100px;
+    margin-bottom:0;
+}
+#botLog svg{
+    width:auto;
+    height:100%;
+}
+#botLog svg .st1:hover{
+    transform: translate(-5px, -5px);
+    transition-duration: 0.1s;
+}
+#arr svg{
+    margin-top: 15%;
+    width:70%;
+    height:100%;
+}
+#arr:hover{
+    transform: translate(-10px, 0px);
+    transition-duration: 0.1s;
+    cursor: pointer;
 }
